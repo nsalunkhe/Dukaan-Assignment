@@ -1,0 +1,152 @@
+.nav-1 {
+  width: 224px;
+  height: 100vh;
+  background-color: #1e2640;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  z-index: 1000;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    width:208px;
+    height:754px;
+    gap: 12px;
+    margin: auto;
+}
+.nav-link {
+    width:100%;
+    display: flex;
+    height:36px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    border-radius: 4px;
+    gap:12px;
+  }
+  .nav-link:hover{
+    background-color: #343b53;
+  }
+
+  .nav-link a{
+    color:#d2d4d9;
+    font-family:'Galano Grotesque', sans-serif;
+    font-weight: 500;
+  }
+  .nav img{
+    width:20px;
+    height:20px;
+    opacity: 80%;
+    color:#ffffff
+  }
+.nav-2{
+    width:208px;
+    height:54px;
+    margin-top: 24px;
+    margin: auto;
+    
+}
+.nav-3{
+    width:192px;
+    height:42px;
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+.nav-3 img{
+  width:39px;
+  height: 39px;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+.user-1{
+  width:108px;
+  height: 42px;
+}
+.user-2{
+  width: 108px;
+  height: 22px;
+  text-align: left;
+}
+.user-2 p{
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'inter' ,sans-serif;
+}
+.user-3{
+  width: 108px;
+  height: 16px;
+  text-align: left;
+  margin-bottom: auto;
+}
+.user-3 p{
+  font-size: 13px;
+  font-weight: 400;
+  color:#d2d4d9;
+  text-decoration: underline;
+  font-family:'Galano Grotesque', sans-serif;
+}
+.user-4{
+  width:20px;
+  height:20px;
+  padding-top: auto;
+  margin-top: auto;
+  margin-left: auto;
+}
+.user-4 img{
+  width:15px;
+  height: 8.68px;
+}
+.nav-2{
+  display: flex;
+  width: 192px;
+  height: 54px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px 12px 6px 12px;
+  background-color:#353C53;
+  border-radius: 4px;
+  gap:12px;
+}
+.nav-2-1{
+  width: 36px;
+  height: 36px;
+  padding: 6px;
+  color:#ffffff;
+  background-color: #494f64;
+  border-radius: 4px;
+}
+.nav-2-1 img{
+  width:100%;
+  height: 100%;
+}
+.nav-2-2{
+ width: 101px;
+ height: 42px;
+ display: flex;
+ flex-direction: column;
+}
+.nav-2-2-1{
+  width: 101px;
+  height:16px;
+  opacity: 80%;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.nav-2-2-2{
+  width: 51px;
+  height:24px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
